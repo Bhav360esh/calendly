@@ -21,6 +21,7 @@ function App() {
     <Footer />
     </div>
     <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+    <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
     </body>
     
     

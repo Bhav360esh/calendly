@@ -10,9 +10,7 @@ import { faTwitter, faFacebookF, faInstagram, faLinkedin, faYoutube } from '@for
 
 const Footer = () => {
     return (
-        <motion.footer class="bg-white dark:bg-gray-900 pt-20 initial={{ opacity: 0, y: -50 }}
-        animate={{ opacity: 1, y: 0 }} 
-        transition={{ duration: 1 }}">
+        <footer class="bg-white dark:bg-gray-900 pt-20">
             <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                 <div class="md:flex md:justify-around">
                     <div class="mb-6 md:mb-0">
@@ -255,7 +253,7 @@ const Footer = () => {
                     </span>
                 </div>
             </div>
-        </motion.footer>
+        </footer>
 
     )
 }
